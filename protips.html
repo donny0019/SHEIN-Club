@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Tip: Stack Your SHEIN Savings Like a Pro</title>
+    <meta name="description" content="Learn the secret to maximizing your SHEIN savings by stacking VIP rewards with external cashback services like Rakuten.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lora:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-main: #fdfafb;
+            --bg-alt: #ffffff;
+            --text-dark: #1c1c1c;
+            --text-muted: #5c5c5c;
+            --primary: #d94d69;
+            --accent: #f2c1aa;
+            --border-color: #f0e9ed;
+            --shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+            --success: #28a745;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-dark);
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: var(--bg-alt);
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 40px;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .header h1 {
+            font-family: 'Lora', serif;
+            font-size: clamp(2.2rem, 5vw, 3rem);
+            color: var(--text-dark);
+            margin-bottom: 16px;
+        }
+        
+        .header .icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 16px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .main-content {
+            background-color: var(--bg-alt);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+        }
+        
+        article h2 {
+            font-family: 'Lora', serif;
+            font-size: 2rem;
+            margin-top: 40px;
+            margin-bottom: 24px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        article h2:first-child {
+            margin-top: 0;
+        }
+
+        p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        
+        strong {
+            color: var(--text-dark);
+            font-weight: 700;
+        }
+        
+        .steps-container {
+            margin-top: 40px;
+            counter-reset: step-counter;
+        }
+
+        .step-card {
+            display: flex;
+            gap: 24px;
+            background: var(--bg-main);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+            position: relative;
+            align-items: flex-start;
+        }
+        
+        .step-card::before {
+            counter-increment: step-counter;
+            content: counter(step-counter);
+            background-color: var(--primary);
+            color: white;
+            font-weight: 700;
+            font-size: 1.5rem;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-family: 'Lora', serif;
+        }
+        
+        .step-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #fcede9, #fde9f2);
+            border-radius: 16px;
+            padding: 40px;
+            margin-top: 40px;
+            text-align: center;
+            border-left: 5px solid var(--primary);
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 16px 35px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(217, 77, 105, 0.3);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 30px rgba(217, 77, 105, 0.4);
+        }
+        
+        .nav-back {
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .nav-back a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="icon"><i class="fas fa-layer-group"></i></div>
+            <h1>Pro Tip: Stack Your Savings Like a Pro</h1>
+            <p>Unlock the next level of discounts by combining SHEIN's VIP rewards with external cashback services.</p>
+        </header>
+
+        <main class="main-content">
+            <article>
+                <p>Getting discounts with your SHEIN Club points and exclusive VIP coupons feels great. But what if that was just the first layer of your savings? To truly maximize every dollar you spend, you need to learn how to <strong>"stack" your rewards.</strong></p>
+                <p>This is the secret that savvy shoppers use, and it's incredibly simple. It involves using an external cashback service in addition to all of SHEIN's internal discounts. They are two completely separate systems, so you can get the benefits of both at the same time.</p>
+                
+                <h2>How to Stack Your Savings in 4 Simple Steps</h2>
+
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div>
+                            <h3>Sign Up for a Free Cashback Service</h3>
+                            <p>The first step is to create an account with a trusted cashback platform. These services are free and make their money by earning a commission from stores for sending shoppers their way—a commission they share with you. The most popular and reliable option is <strong>Rakuten</strong>. They frequently offer a sign-up bonus as well.</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div>
+                            <h3>Activate Cashback Before You Shop</h3>
+                            <p>This is the most crucial step. Before heading to the SHEIN site or app, go to your Rakuten dashboard and click their link to activate the shopping trip. If you use their browser extension, it will often glow or pop up on the SHEIN site, allowing you to activate the cashback offer with a single click.</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div>
+                            <h3>Shop and Check Out as Normal</h3>
+                            <p>Fill your cart on SHEIN just like you always do. When you get to the checkout page, apply your SHEIN VIP coupons and use your SHEIN Points to lower the total. The cashback percentage is calculated on your final, post-discount spending, so you save on both ends.</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div>
+                            <h3>Get Real Cash Back</h3>
+                            <p>After you complete your purchase, Rakuten will track it and credit your account with a percentage of your purchase total. Every few months, they will send you your accumulated cash via PayPal or a check. It's real money back in your pocket for a purchase you were already making.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <p>By taking 30 seconds to activate a cashback offer, you ensure you are never leaving money on the table. It's the single best habit you can adopt to maximize your savings on every single order.</p>
+                    <a href="YOUR_AFFILIATE_LINK_HERE" class="cta-button">Sign Up for Rakuten & Get a Bonus!</a>
+                </div>
+            </article>
+        </main>
+        
+        <div class="nav-back">
+            <a href="index.html">← Back to the Full Guide</a>
+        </div>
+    </div>
+</body>
+</html>
